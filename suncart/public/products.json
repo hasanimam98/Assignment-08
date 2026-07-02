@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://i.postimg.cc/7L2XbK8L/sunglasses.png",
+    "category": "Accessories"
+  },
+   {
+    "id": 2,
+    "name": "Summer T-Shirt",
+    "brand": "Nike",
+    "price": 25,
+    "rating": 4.8,
+    "stock": 18,
+    "description": "Lightweight cotton t-shirt for hot summer days.",
+    "image": "https://i.postimg.cc/Qxj4f2Z2/tshirt.png",
+    "category": "Clothing"
+  },
+  {
+    "id": 3,
+    "name": "Beach Hat",
+    "brand": "SummerFit",
+    "price": 18,
+    "rating": 4.6,
+    "stock": 12,
+    "description": "Wide brim beach hat with UV protection.",
+    "image": "https://i.postimg.cc/g2k6c2h4/hat.png",
+    "category": "Accessories"
+  },
+    {
+    "id": 4,
+    "name": "Sunscreen SPF 50",
+    "brand": "Nivea",
+    "price": 12,
+    "rating": 4.9,
+    "stock": 20,
+    "description": "SPF 50 sunscreen for complete skin protection.",
+    "image": "https://i.postimg.cc/vZ6rF8QH/sunscreen.png",
+    "category": "Skincare"
+  },
+  {
+    "id": 5,
+    "name": "Beach Slippers",
+    "brand": "Adidas",
+    "price": 20,
+    "rating": 4.5,
+    "stock": 15,
+    "description": "Comfortable anti-slip summer slippers.",
+    "image": "https://i.postimg.cc/7YdGx0V6/slippers.png",
+    "category": "Footwear"
+  },
+  {
+    "id": 6,
+    "name": "Beach Bag",
+    "brand": "Puma",
+    "price": 30,
+    "rating": 4.8,
+    "stock": 8,
+    "description": "Large waterproof beach bag.",
+    "image": "https://i.postimg.cc/HkJmX7Q5/beachbag.png",
+    "category": "Accessories"
+  }
+]
