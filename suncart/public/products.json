@@ -1,50 +1,61 @@
 [
   {
     "id": 1,
-    "name": "Wireless Headphones",
-    "image": "https://i.imgur.com/8Km9tLL.jpg",
-    "price": 59,
-    "rating": 4.5,
-    "category": "Electronics"
+    "name": "Summer T-Shirt",
+    "brand": "Nike",
+    "price": 25,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
+    "description": "Comfortable cotton t-shirt perfect for summer."
   },
-   {
+
+    {
     "id": 2,
-    "name": "Smart Watch",
-    "image": "https://i.imgur.com/O3OQZ9R.jpg",
-    "price": 99,
-    "rating": 4.7,
-    "category": "Wearable"
+    "name": "Beach Hat",
+    "brand": "Adidas",
+    "price": 18,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=500",
+    "description": "Comfortable cotton Hat perfect for summer."
   },
+
   {
     "id": 3,
-    "name": "Running Shoes",
-    "image": "https://i.imgur.com/qJz0V8M.jpg",
-    "price": 75,
-    "rating": 4.3,
-    "category": "Fashion"
+    "name": "Sunglasses",
+    "brand": "Ray Ban",
+    "price": 80,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=500",
+    "description": "Comfortable Sunglass perfect for summer."
   },
+
    {
     "id": 4,
-    "name": "Bluetooth Speaker",
-    "image": "https://i.imgur.com/2l5v8hF.jpg",
-    "price": 45,
-    "rating": 4.4,
-    "category": "Electronics"
+    "name": "Summer Shoes",
+    "brand": "Puma",
+    "price": 60,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500",
+    "description": "Comfortable shoe perfect for summer."
   },
-  {
+
+    {
     "id": 5,
-    "name": "Backpack",
-    "image": "https://i.imgur.com/3GvwNBf.jpg",
+    "name": "Cotton Shirt",
+    "brand": "H&M",
     "price": 35,
-    "rating": 4.2,
-    "category": "Travel"
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500",
+    "description": "Comfortable cotton shirt perfect for summer."
   },
-  {
+
+   {
     "id": 6,
-    "name": "Sunglasses",
-    "image": "https://i.imgur.com/7yUvePI.jpg",
-    "price": 25,
-    "rating": 4.1,
-    "category": "Fashion"
+    "name": "Travel Backpack",
+    "brand": "American Tourister",
+    "price": 55,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+    "description": "Comfortable Backpack perfect for summer."
   }
 ]

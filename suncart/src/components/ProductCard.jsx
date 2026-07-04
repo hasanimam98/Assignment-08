@@ -1,3 +1,4 @@
+import Link from "next/link";
 const ProductCard = ({ product }) => {
   return (
     <div className="card bg-base-100 shadow-xl">
@@ -17,10 +18,11 @@ const ProductCard = ({ product }) => {
         </p>
 
             <p>⭐ {product.rating}</p>
-
+<Link href={`/products/${product.id}`}>
              <button className="btn btn-warning mt-3">
           View Details
         </button>
+        </Link>
          </div>
     </div>
   );
