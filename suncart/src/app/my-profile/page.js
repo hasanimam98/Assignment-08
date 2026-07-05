@@ -1,50 +1,73 @@
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+
 export default function MyProfile() {
   return (
-    <div className="max-w-3xl mx-auto py-10 px-4">
-      
-      <h1 className="text-3xl font-bold text-center mb-8">
-        My Profile
-      </h1>
+    <>
 
-           <div className="bg-white shadow-md rounded-xl p-6 text-center">
+    <Navbar />
 
-              <img
-          src="https://i.pravatar.cc/150?img=12"
-          alt="Profile"
-          className="w-24 h-24 rounded-full mx-auto mb-4"
-        />
+      <section className="min-h-screen bg-orange-50 py-16 px-4">
+        <div className="max-w-md mx-auto bg-white shadow-xl rounded-xl p-8 text-center">
 
-         <h2 className="text-2xl font-semibold">
-          John Doe
-        </h2>
-
-         <p className="text-gray-500 mt-1">
-          johndoe@example.com
-        </p>
+          <img
+            src="https://i.pravatar.cc/200?img=12"
+            alt="Profile"
+            className="w-32 h-32 rounded-full mx-auto border-4 border-orange-500"
+          />
 
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
-          
-          <div className="p-4 bg-orange-50 rounded-lg">
-            <p className="text-gray-500">Total Orders</p>
-            <h3 className="text-xl font-bold">24</h3>
-          </div>
+          <h1 className="text-3xl font-bold mt-5">
+            Hasan Imam
+          </h1>
+
+          <p className="text-gray-500">
+            HImam@example.com
+          </p>
 
 
-           <div className="p-4 bg-green-50 rounded-lg">
-            <p className="text-gray-500">Completed</p>
-            <h3 className="text-xl font-bold">18</h3>
-          </div>
+           <div className="divider"></div>
 
+          <div className="space-y-3 text-left">
 
-          <div className="p-4 bg-yellow-50 rounded-lg">
-            <p className="text-gray-500">Pending</p>
-            <h3 className="text-xl font-bold">6</h3>
-          </div>
+            <p>
+              <span className="font-semibold">
+                Phone:
+              </span>{" "}
+              +1 (234) 567-890
+            </p>
 
+            <p>
+              <span className="font-semibold">
+                Address:
+              </span>{" "}
+              New York, USA
+            </p>
 
-             </div>
-      </div>
-    </div>
+            <p>
+              <span className="font-semibold">
+                Favorite Brand:
+              </span>{" "}
+              Nike
+            </p>
+
+            <p>
+              <span className="font-semibold">
+                Member Since:
+              </span>{" "}
+              2026
+            </p>
+
+               </div>
+
+          <button className="btn btn-warning w-full mt-8">
+            Edit Profile
+          </button>
+
+        </div>
+      </section>
+
+      <Footer />
+    </>
   );
 }
