@@ -24,7 +24,7 @@ const Navbar = () => {
           className="flex items-center gap-2 text-2xl font-bold text-orange-500"
         >
           <FaShoppingCart />
-          SunCart
+          JackFruit
         </Link>
       </div>
 

@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="footer footer-center bg-orange-500 text-white p-10 mt-16">
 <div>
         <h2 className="text-3xl font-bold">
-          SunCart
+          JackFruit
         </h2>
     <p>
           Your Summer Essentials Store
