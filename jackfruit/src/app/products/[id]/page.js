@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import products from "@/../public/products.json";
 
 export async function generateStaticParams() {
   return [
@@ -12,12 +13,8 @@ export async function generateStaticParams() {
   ];
 }
 
-async function getProducts() {
-  const res = await fetch("http://localhost:3000/products.json", {
-    cache: "force-cache",
-  });
-
-  return res.json();
+function getProducts() {
+  return products;
 }
 
 export default async function ProductDetails({ params }) {
